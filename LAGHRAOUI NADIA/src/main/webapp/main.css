@@ -1,0 +1,36 @@
+@charset "ISO-8859-1";
+
+body{
+	margin: 0px;
+	padding: 0px;
+ background-image: url("library.jpg");
+}
+.header{
+	background-color: rgb(0, 0, 0);
+	height : 80px;
+	margin: 10px;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px;
+}
+ul li a{
+	color: #7FFFD4;
+	letter-spacing: 0.1rem;
+}
+ul li a:hover{
+	color: #ffd358;
+	text-decoration: underline;
+}
+.menu li{
+	float: left;
+	padding: 35px;
+}
+.menu li a{
+	text-decoration: none;
+}
+form{
+	padding: 35px;
+	text-align: right;
+}
